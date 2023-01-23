@@ -135,3 +135,8 @@ table {
   font-size: 62.5%;
   box-sizing: border-box;
 }
+
+html {
+  font-family: "Ubuntu", sans-serif;
+}
+
