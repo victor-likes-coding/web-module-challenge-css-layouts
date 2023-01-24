@@ -300,3 +300,86 @@ a:active {
   align-items: center;
 }
 /* footer ends */
+
+/* mobile first */
+
+.portfolio__nav {
+  width: 100vw;
+  padding: 0;
+  position: fixed;
+  z-index: 50;
+  background-color: #fff;
+}
+
+.portfolio__header {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio__header--enlarged {
+  padding-bottom: 1.2rem;
+}
+
+.portfolio__nav-links--flex,
+.stacked a {
+  width: 66%;
+}
+
+.portfolio__nav-links--flex {
+  flex-direction: column;
+  height: 35vh;
+  margin: 0 auto;
+  margin-top: 2rem;
+  justify-content: space-between;
+  margin-bottom: 1.6rem;
+}
+
+.portfolio__nav-link {
+  border: 1px solid #000;
+}
+
+.hidden {
+  display: none;
+}
+
+.portfolio__nav-link-toggle-line {
+  border: 1px solid #000;
+  margin: 0 auto;
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio__nav-link-toggle-square {
+  background-color: rgb(136, 136, 136);
+  width: 32px;
+  height: 6px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+.portfolio__nav-link-toggle-triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid white;
+  margin-top: 1px;
+}
+
+.stacked a {
+  position: absolute;
+}
+
+.portfolio__nav-links--flex.stacked {
+}
+
+.projects__main {
+  margin-top: 0;
+}
